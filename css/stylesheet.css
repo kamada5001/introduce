@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+  font-family:"inherit",sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 960px;
+  padding-left: 100px;
+  margin: 0 auto;
+}
+
+.side-menu-avoid{
+  width: 682px;
+  padding-left: 177px;
+}
+
+.side-menu {
+  color: white;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+}
+
+.side-menu h2 {
+  font-size: 35px;
+  padding-bottom:30px;
+}
+
+.side-menu a {
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color:black;
+}
+.top-wrapper {
+  color:white;
+  width:100%;
+	background-image: url("../bg-top.jpg");
+	background-size: cover;
+}
+
+.top-wrapper .container {
+  width: 960px;
+  padding: 0;
+}
+
+.top-wrapper h1 {
+  font-size: 70px;
+  padding-top:400px;
+  padding-left:100px;
+  padding-bottom: 20px;
+}
+
+.top-wrapper p {
+  font-size: 30px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+
+.self-introducion-wrapper {
+  width: 100%;
+  padding: 40px 0;
+  background-image: url("../bg-introducion.jpg");
+  background-size: cover;
+}
+
+.self-introducion {
+  height: 100%;
+  padding: 40px;
+  background: rgba(255,255,255,0.7);
+  border-radius: 20px;
+}
+
+.self-introducion p {
+  font-size: 25px;
+  padding-bottom: 40px;
+}
